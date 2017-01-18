@@ -3,7 +3,7 @@ import sys, getopt
 
 
 """
-This is a quick script written to calculate when to check fortune teller tents in Festival Plaza
+This is a quick script written to calculate when to check lottery tents in Festival Plaza
 implemented in Python 2. Times are roughly approximate and defaults are set to my own game.
 For ease of implementation, some time intervals close to midnight may be missed.
 
