@@ -28,7 +28,7 @@ GOAL = 1
 
 def main(argv):
     if (len(argv) > 0 and argv[0] == "--setdate"):
-        date_str = raw_input("Please enter the base date (YY MM DD HH MM)")
+        date_str = raw_input("Please enter the base date (YYYY MM DD HH MM)")
         year, month, day, hours, mins = map(int, date_str.strip().split(" "))
     else:
         year, month, day, hours, mins = YEAR, MONTH, DAY, HOURS, MINS
